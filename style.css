@@ -1,0 +1,176 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.top-left {
+    font-size: 24px;
+    margin-top: 87px;
+    white-space: nowrap;
+
+}
+
+.top-right {
+    margin-top: 95px;
+}
+
+.top-right ul {
+    font-size: 16px;
+    list-style: none;
+    white-space: nowrap;
+    display: flex;
+    gap: 34px;
+
+}
+
+.mid {
+    display: flex;
+}
+
+.mid-left {
+    margin-left: 120px;
+    margin-bottom: 170px;
+
+}
+
+.mid h1 {
+    font-size: 52px;
+}
+
+button {
+    background-color: #E02C6D;
+    width: 195px;
+    height: 45px;
+    border-radius: 41px;
+    color: #FFFFFF;
+}
+
+.mid-right {
+    margin-left: 120px;
+    margin-right: 132px;
+    margin-bottom: 100px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+
+.brands {
+    border-top: 1px solid #C0CCDA;
+    border-bottom: 1px solid #C0CCDA;
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-bottom: 100px;
+}
+
+.logos {
+    width: 1200px;
+    height: 40px;
+    margin-top: 36px;
+    margin-bottom: 62px;
+
+}
+
+.brands .logos img {
+    margin-right: 60px;
+}
+
+.container {
+    height: 1900px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.product {
+    border-radius: 5px;
+    width: 329px;
+    height: 476px;
+    margin-left: 14px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.name {
+    font-size: 28px;
+    margin: 0;
+}
+
+.price {
+    font-size: 24px;
+    margin: 0;
+}
+
+.fa-star {
+    color: orange;
+    margin: 0;
+}
+
+.fa-star-half-stroke {
+    color: orange;
+    margin: 0;
+}
+
+.small {
+    font-size: 14px;
+    margin: 0;
+}
+
+.corner {
+    margin-top: 20px;
+    color: #E02C6D;
+    text-align: right;
+    font-size: 1.5em;
+}
+
+.bottom {
+    display: flex;
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-bottom: 150px;
+}
+
+.bottom-right {
+    margin-left: 96px;
+
+}
+
+.large {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.small2 {
+    font-size: 14px;
+}
+
+.footer {
+    background-color: rgb(4, 4, 43);
+    height: 200px;
+}
+
+.fot {
+    white-space: nowrap;
+    margin: 50px 500px;
+    text-align: center;
+    color: white;
+}
